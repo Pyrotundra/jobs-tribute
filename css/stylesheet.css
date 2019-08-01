@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility Classes */
+
+#main {
+  margin: 1rem;
+  border-radius: 5px;
+  background: #eee;
+  padding: 15px;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Heading */
+.header {
+  text-align: center;
+}
+
+#title {
+  font-size: 6vw;
+  padding: 1.3rem 0;
+}
+
+.header p {
+  font-size: 3vw;
+  padding-bottom: 1.3rem;
+}
+
+/* Img Div Styling */
+#img-div {
+  background: #fff;
+  border-radius: 5px;
+  padding: 1.2rem;
+}
+
+#img-div p {
+  font-size: 1.8vw;
+  text-align: center;
+  padding-top: 1.1rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Tribute Info */
+#tribute-info h2 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.5vw;
+}
+
+#tribute-info ul {
+  display: block;
+  font-size: 1.6vw;
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto 1.5rem auto;
+  line-height: 1.6;
+  padding: 0 1.5vw 0 1.5vw;
+}
+
+#tribute-info li {
+  align-content: center;
+  display: list-item;
+  padding-bottom: 1rem;
+  list-style: disc;
+  margin: 2rem 2rem;
+}
+
+#tribute-info h2 a {
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#quote p {
+  text-align: center;
+  font-size: 1.8vw;
+  padding: 1.2rem;
+}
+
+#quote cite {
+  display: block;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#readmore {
+  display: block;
+  text-align: center;
+}
